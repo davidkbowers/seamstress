@@ -13,6 +13,9 @@
         <div th:switch="${clients}" class="container my-5">
             <div class="row">
                 <div class="col-md-6">
+					<img th:src="@{/images/home.png}"/>
+                </div>            
+                <div class="col-md-6">
                     <p class="my-5"><a href="/addclient" class="btn btn-primary"><i class="fas fa-user-plus ml-2"></i>   &nbsp;Add Client&nbsp;&nbsp;</a></p>     
                     <p class="my-5"><a href="/clients" class="btn btn-primary"><i class="fas fa-users ml-2"></i>         &nbsp;View Clients</a></p>
                     <p class="my-5"><a href="/addorder" class="btn btn-primary"><i class="fas fa-money-check ml-2"></i>  &nbsp;Add Order&nbsp;&nbsp;&nbsp;</a></p>     
